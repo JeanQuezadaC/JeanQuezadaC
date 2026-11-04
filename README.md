@@ -17,8 +17,9 @@ Compagino los estudios con un trabajo los fines de semana, así que voy avanzand
 **[password-analyzer](https://github.com/JeanQuezadaC/password-analyzer)**
 Una herramienta de terminal que analiza lo segura que es una contraseña: calcula su entropía, detecta patrones débiles (secuencias, años, contraseñas muy comunes) y estima cuánto tardaría un atacante en romperla. También comprueba si la contraseña ha aparecido en alguna filtración usando la API de Have I Been Pwned. Lo que más me gustó de este proyecto fue aprender cómo funciona el k-anonimato, que permite hacer esa comprobación sin llegar a enviar la contraseña.
 
-**Escáner de puertos** (en proceso)
-Un escáner de puertos TCP en Python, parecido a una versión sencilla de Nmap. Lo estoy haciendo para entender mejor cómo funcionan las conexiones, los puertos y los servicios que hay detrás.
+**[port-scanner](https://github.com/JeanQuezadaC/port-scanner)**
+
+Un escáner de puertos TCP con interfaz de escritorio, parecido a una versión sencilla de Nmap. Escanea con varios hilos a la vez, detecta qué servicio y qué versión hay en cada puerto abierto y avisa de los que suelen suponer un riesgo de seguridad. Lo hice para entender mejor cómo funcionan las conexiones TCP y los servicios que hay detrás.
 
 ### Lo siguiente
 
